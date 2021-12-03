@@ -1,0 +1,17 @@
+body {
+  background-color: #fff;
+  padding: 0px;
+  margin: 0px;
+}
+
+.intro-section img {
+  width: 200px;
+  height: auto;
+}
+
+.info img {
+  width: 200px;
+  height: auto;
+  border: 3px solid #3882f6;
+  border-radius: 5px;
+}
