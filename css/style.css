@@ -9,7 +9,7 @@ body {
 }
 
 ::selection {
-  background: #e00814;
+  background: lightcoral;
 }
 
 .intro-section img {
@@ -124,4 +124,78 @@ ul {
 .info .text {
   max-width: 200px;
   margin-left: 50px;
+}
+
+.quote-section {
+  background: #e5e7eb;
+  padding: 30px 0px 30px 0px;
+  margin: 80px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.quote-section blockquote {
+  color: #1f2937;
+  max-width: 750px;
+  font-weight: 300;
+  font-size: 33px;
+  margin-bottom: 0px;
+}
+
+.quote-section figcaption {
+  font-size: 22px;
+  margin-left: 450px;
+}
+
+.signup-section {
+  padding: 80px 0px 80px 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.background-box {
+  background: #3882f6;
+  width: 800px;
+  padding: 35px 10px 35px 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.background-box-title {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+
+  margin: 0px;
+}
+
+.background-box-wrapper p {
+  color: #fff;
+  font-size: 16px;
+  margin: 2px 0px 0px 0px;
+}
+
+.background-box button {
+  background-color: transparent;
+  border-color: #fff;
+  padding: 0px;
+}
+
+.signup-button a {
+  color: white;
+  border: 2px white solid;
+  border-radius: 5px;
+  padding: 5px 25px 5px 25px;
+  text-decoration: none;
+}
+
+.footer {
+  padding: 25px 0px 25px 0px;
+  background: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
 }
