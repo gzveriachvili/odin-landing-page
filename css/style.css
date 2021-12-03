@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Roboto:wght@100;300;400;700&display=swap');
 body {
   background-color: #fff;
   padding: 0px;
   margin: 0px;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
 }
 
 .intro-section img {
@@ -14,4 +18,49 @@ body {
   height: auto;
   border: 3px solid #3882f6;
   border-radius: 5px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: #1f2937;
+  justify-content: center;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  margin-right: 500px;
+}
+
+.logo .logo-changer {
+  font-family: 'Michroma', sans-serif;
+  color: #3882f6;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+.link {
+  display: flex;
+  gap: 0 16px;
+  font-size: 18px;
+  font-weight: thin;
+}
+
+.link a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.link a:hover {
+  color: #3882f6;
+}
+
+.intro-section {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
 }
